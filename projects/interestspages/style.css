@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color:aliceblue;
+}
+.title{
+    font-family:cursive;
+}
+.color{
+    color:#0EB1D2;
+}
+.interest{
+    color:brown
+}
+.brighter{
+    background-color:pink;
+}
+#footer{
+    font-style: italic;
+}
+.em{
+    color:#0EB1D2;
+}
+.bold{
+    font-weight: 900;
+}
+.hero{
+    color:brown;
+}
+.dt1{
+    font-weight: bold;
+}
+.dt2{
+    font-weight: bold;
+}
+.dt3{
+    font-weight: bold;
+}
+.de{
+    color:#b3833b;
+}
+
