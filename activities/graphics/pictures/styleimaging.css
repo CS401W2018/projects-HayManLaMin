@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    background:url('pinkbackground.png') palevioletred ;
+    /*background-color: palevioletred;
+    background-image: url('pinkbackground.png');*/
+}
+header{
+    /*background-image: url('Appleart.png');
+    background-repeat: no-repeat;
+    background-position: top right;*/
+    background: url('Appleart.png') no-repeat top right;
+}
+.list{
+    list-style-image: url('bluecandy.png');
+}
