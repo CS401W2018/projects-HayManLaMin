@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: url('space.jpg') black;
+}
+nav a{
+    color: aqua;
+}
+.current{
+    color: gray;
+}
+main{
+    background: url('flagmyanmar.png') no-repeat top right;
+}
+.list{
+    list-style-image: url('temple.png');
+}
