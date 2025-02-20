@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 350px;
+}
+nav a{
+    display: block;
+    background-color: aqua;
+    padding: 10px 5px;
+    border-bottom: thin solid white;
+}
+.flower{
+    width: 250px;
+    border:thin solid black;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+}
+.flower img{
+    width: 100%;
+}
+.floating{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.moving{
+    position: fixed;
+    top:50px;
+    
+}
