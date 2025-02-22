@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194,194,243);
+}
+header{
+    width: 300px;
+    height: 100px;
+    margin:auto;
+    text-align: center;
+    background-color: plum;
+    border:thin solid red;
+    border-radius: 30%;
+    box-shadow:10px 10px rgb(0,0,0,0.5);
+    text-transform:uppercase;
+    margin-top: 4px;
+
+}
+nav a{
+    display: block;
+    padding: 5px 10px;
+    background-color: aqua;
+    color:white;
+    text-decoration: none;
+    float:left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+
+}
+nav a:hover{
+    
+    color: green;
+    background-color: white;
+    text-decoration: underline;
+    
+}
+
+#wrapper{
+    width: 700px;
+    background-color: white;
+    margin:10px auto;
+    border:thin solid black;
+    
+}
+.clear{
+    clear:both
+}
+.cat{
+    width: 300px;
+    float:left;
+    border:thin solid black;
+    
+}
+.cat image{
+    width:100%;
+}
+.text{
+    text-align: left;
+    line-height: 1cm;
+    font-size: small;
+
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px rgb(194,194,243);
+}
+main{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+footer{
+    background: url("catbackground1.jpg") no-repeat bottom right;
+    padding:15px;
+    background-clip:border-box;
+    background-origin:border-box;
+    
+}
+
