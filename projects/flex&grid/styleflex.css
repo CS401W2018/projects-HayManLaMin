@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+}
+header{
+    background-color:thistle;
+    margin:0%;
+}
+#title{
+    margin:0%;
+}
+nav{
+    background-color:hotpink ;
+    display:flex;
+    justify-content: space-evenly;
+}
+nav a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+}
+.wrapper{
+    display:flex;
+    padding: 1px;
+}
+aside{
+    width: 25%;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.card{
+    width:150px;
+    height:300px;
+    background-color: pink;
+    text-align: left;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.card img{
+    width:100%;
+}
+
+
+.twentylinks{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4,auto);
+    
+}
+.twentylinks a{
+    display: block;
+    padding: 2px;
+}
