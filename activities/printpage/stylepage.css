@@ -3,6 +3,29 @@ body{
     margin:0;
     
 }
+@media ONLY screen AND (max-width: 600px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        width:80%;
+        margin-bottom: 15px;
+    }
+    .feature{
+        order: -1;
+    }
+}
+@media ONLY screen AND (max-width:600px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-radius: 0%;
+    }
+}
+
 header{
     background-color: rgb(178, 123, 196);
 
@@ -40,7 +63,7 @@ nav a:hover{
 .card{
     border:thin solid black;
     box-shadow: 3px 3px 3px rgba(40 , 40, 40, 0.5);
-    width:250px;
+    width:200px;
 }
 .card figure{
     margin:0;
