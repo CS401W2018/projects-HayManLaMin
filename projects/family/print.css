@@ -1,0 +1,75 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+    
+}
+@media ONLY screen AND (max-width: 650px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .wrapper main{
+        order:-1;
+        width:100%;
+
+    }
+    .card{
+        width:80%;
+        margin-bottom: 15px;
+    }
+    .feature{
+        order: -1;
+    }
+}
+nav{
+    display:none;
+}
+
+
+header{
+    background-color: rgb(178, 123, 196);
+
+
+}
+header h1{
+    margin:0;
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    display:flex;
+    padding: 3px;
+}
+aside{
+    width: 25%;
+}
+
+
+.card{
+
+    border:thin solid black;
+    box-shadow: 3px 3px 3px rgba(40 , 40, 40, 0.5);
+    width:200px;
+}
+.card figure{
+    margin:0;
+}
+.card img{
+    width:100%;
+}
+.side{
+    
+
+    width:200px;
+}
+.side img{
+    width:100px;
+}
