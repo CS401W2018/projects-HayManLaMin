@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+.parent{
+    background-color: yellow;
+    display:flex;
+    flex-flow: row wrap;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+
+}
+.child{
+    background-color: pink;
+    width: 150px;
+}
+.featured{
+    order: -1;
+}
