@@ -1,0 +1,40 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav{
+    margin-bottom: 3px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrapper aside{
+    width:30%;
+}
+.wrapper table{
+    order:-1;
+}
+.tabl{
+    border: thin solid black;
+    border-spacing: 3px;
+    border-collapse: collapse;
+}
+.tabl thead th{
+    background-color:#a14e89;
+    border:thin solid black;
+    color:darkblue;
+}
+.tabl tbody td{
+    border:thin solid black;
+}
+.tabl tbody tr:nth-child(even){
+    background-color:pink;
+}
+.tabl caption{
+    caption-side: bottom;
+
+}
+.tabl tbody tr:nth-child(odd){
+    background-color: rgb(223, 180, 102);
+}
