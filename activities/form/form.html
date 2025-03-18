@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <header>Web Design</header>
+    <main>
+        <form action="processing.html" method="get">
+            <div class="form-row">
+                <label for="fname">Full Name:</label>
+                <input type="text" name="fullname" id="fname" value="Chris">
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-row">
+                <label for="state">State:</label>
+                <select name="stage" id="state">
+                    <option value="blank"></option>
+                    <option value="CO">Colorado</option>
+                    <option value="HI">selected Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label>
+                    <input type="radio" name="year" value="freshman">Freshman
+                    <input type="radio" name="year" value="soph">Sophomore
+                    <input type="radio" name="year" value="Jr">Junior
+                    <input type="radio" name="year" value="sen">Senior
+                </label>
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+        </form>
+        <p>1. The form tag has an "action" attribute. What does it do?</p>
+        <p>When we submit the form, it specifies the URL that the form goes. </p>
+        <p>2. The form tag has a "method" attribute. What does it do?</p>
+        <p>The method decides the way which the form data is sent to the server.</p>
+        <p>3. What is the difference between a "POST" and a "GET"?</p>
+        <p>We use "Post" when we do wanna post something and when we do not want our input data in the form will be showed up in URL. We use "get" when we want to read and search data.</p>
+
+    </main>
+    <footer>&copy; 2025 Hay Man</footer>
+</body>
+</html>
