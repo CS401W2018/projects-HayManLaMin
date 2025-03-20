@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleform.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header>Web Design</header>
+    <main>
+        <fieldset>
+            <legend>Create Account</legend>
+            <form action="processing.html" method="get">
+            
+
+                <div class="form-row">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" name="fullname" id="fname" value="Chris">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="stage" id="state">
+                        <option value="blank"></option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">selected Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-space">Year in school: </div>
+                    <label>
+                        <input type="radio" name="year" value="freshman">Freshman
+                        <input type="radio" name="year" value="soph">Sophomore
+                        <input type="radio" name="year" value="Jr">Junior
+                        <input type="radio" name="year" value="sen">Senior
+                    </label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-space"></div>
+                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments </label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-space"></div>
+                    <input type="submit">
+                </div>
+        
+            </form>
+        </fieldset>
+        <p>1. What are different ways to style your form?</p>
+        <p> Different ways to style a form are by giving classes and ids to our elements and making css changesa or we can use flex or grid.</p>
+        <p>2.Why does the professor like to use flex?</p>
+        <p>Because flex is easy to create a responsive when we want to use many small css to style our page and it is adjustable with our css easily.</p>
+        
+    </main>
+    <footer>&copy; 2025 Hay Man</footer>
+</body>
+</html>
