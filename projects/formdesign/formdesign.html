@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleformdesign.css" media="screen">
+    <link rel="stylesheet" href="printformdesign.css" media="print">
+</head>
+<body>
+    <header><h1>Creating Account</h1></header>
+    <main>
+        <fieldset>
+            <legend>Create Account</legend>
+            <form action="processing.html" method="get">
+            
+
+                <div class="form-row">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" name="fullname" id="fname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank">--</option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">selected Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="CA">California</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-space">Year in school:</div>
+                    <label for="year"></label>
+                    <input type="radio" name="year" id="year" value="freshman">Freshman
+                    <input type="radio" name="year" value="soph">Sophomore
+                    <input type="radio" name="year" value="Jr">Junior
+                    <input type="radio" name="year" value="sen">Senior
+                </div>
+                
+                <div class="radio-row">
+                    <div class="form-space"></div>
+                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments </label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-space"></div>
+                    <input type="submit">
+                </div>
+        
+            </form>
+        </fieldset>
+        
+        
+    </main>
+    <footer>&copy; 2025 Hay Man</footer>
+</body>
+</html>
