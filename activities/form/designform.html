@@ -11,12 +11,12 @@
     <main>
         <fieldset>
             <legend>Create Account</legend>
-            <form action="processing.html" method="get">
+            <form action="processing.html" method="get" id="myform">
             
 
                 <div class="form-row">
                     <label for="fname">Full Name:</label>
-                    <input type="text" name="fullname" id="fname" value="Chris">
+                    <input type="text" name="fullname" id="fullname">
                 </div>
                 <div class="form-row">
                     <label for="email">Email:</label>
@@ -25,6 +25,10 @@
                 <div class="form-row">
                     <label for="password">Password:</label>
                     <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age">
                 </div>
                 <div class="form-row">
                     <label for="state">State:</label>
@@ -59,12 +63,43 @@
         
             </form>
         </fieldset>
-        <p>1. What are different ways to style your form?</p>
-        <p> Different ways to style a form are by giving classes and ids to our elements and making css changesa or we can use flex or grid.</p>
-        <p>2.Why does the professor like to use flex?</p>
-        <p>Because flex is easy to create a responsive when we want to use many small css to style our page and it is adjustable with our css easily.</p>
         
+        <p>1. What is JavaScript? How did it get its name?</p>
+        <p>JavaScript is a programming language which can write and react in websites. It was created by Netscape which was the rival company with Microsoft and it is named JavaScript because Netscape used the Java's success for successful promotion than the rival company. </p>
+        <p>2. What are the two ways you can run JavaScript?</p>
+        <p>The first way is in the document object model/DOM. The second way is downloading and running it in nod.js/ Express.js.</p>
+        <p>3.What was the most popular front-end is library?</p>
+        <p>The most popular front-end library is jQuery.</p>
+        <P>4. What is the most popular front-end js library today?</P>
+        <p>The most popular front-end library today is React.js made by Meta.</p>
     </main>
     <footer>&copy; 2025 Hay Man</footer>
+    <script>
+        document.getElementById('myform').addEventListener('submit',function(event) {
+            event.preventDefault();
+            //alert("Form Submitted");
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            console.log(fullname);
+
+            if (!fullname || !email){
+                alert("You need a name and email")
+                return
+            }
+            if (!age || age<18){
+                alert("You need to be 18.")
+                return
+            }
+
+            const formdata ={
+                name: fullname,
+                email: email,
+                password: password,
+            
+
+            }
+        });
+    </script>
 </body>
 </html>
