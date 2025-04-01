@@ -10,7 +10,7 @@ document.getElementById('myform').addEventListener('submit',function(event) {
     
 
     if (!fullname || !email){
-        alert("You need a name, an email")
+        alert("You need a name, an email.")
         return
     }
     if (!age || age<18){
