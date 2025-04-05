@@ -1,0 +1,158 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+    
+}
+@media ONLY screen AND (max-width: 600px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    
+
+        
+    }
+    .row_upper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 15px;
+        width:15%;
+       
+    }
+}
+
+@media ONLY screen AND (max-width:600px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-radius: 0%;
+    }
+}
+
+header{
+    background-color: rgb(233, 211, 17);
+
+
+}
+header h1{
+    margin:0;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(124, 240, 78);
+    
+}
+.current{
+    background-color: rgb(85, 76, 76);
+    color:gray;
+    
+}
+.wrapper{
+    display:flex;
+    padding:3px;
+    
+
+
+}
+.side{
+    width: 50%;
+    margin-right: 300px;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    background-color:rgb(68, 150, 74);
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    color:rgb(170, 60, 33);
+    background-color: white;
+}
+
+.card{
+    width:500px;
+}
+.card figure{
+    margin:0;
+}
+.card img{
+    width:100%;
+}
+.side{
+    
+
+    width:300px;
+}
+.side img{
+    width:300px;
+    margin-bottom: 100px;
+}
+.explain{
+    font-weight: bold;
+}
+.card_upper{
+    border:thin solid black;
+    border-radius: 3px;
+    width:200px;
+
+}
+.card_upper img{
+    width:100%;
+}
+.row_upper{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrapper aside{
+    width:30%;
+}
+.wrapper table{
+    order:-1;
+}
+.tabl{
+    border: thin solid black;
+    border-spacing: 3px;
+    border-collapse: collapse;
+}
+.tabl thead th{
+    background-color:#b3d326;
+    border:thin solid black;
+    color:white;
+}
+.tabl tbody td{
+    border:thin solid black;
+}
+.tabl tbody tr:nth-child(even){
+    background-color:rgb(199, 235, 101);
+}
+.tabl caption{
+    caption-side: bottom;
+
+}
+.tabl tbody tr:nth-child(odd){
+    background-color:rgb(238, 219, 48);
+}
+
