@@ -20,9 +20,12 @@ body{
     }
     .card{
         margin-bottom: 15px;
-        width:15%;
+        width: 300px;
        
     }
+    
+    
+
 }
 
 @media ONLY screen AND (max-width:600px){
@@ -111,6 +114,7 @@ nav a:hover{
     border:thin solid black;
     border-radius: 3px;
     width:200px;
+    margin: 5px 5px 5px 5px;
 
 }
 .card_upper img{
@@ -155,4 +159,61 @@ nav a:hover{
 .tabl tbody tr:nth-child(odd){
     background-color:rgb(238, 219, 48);
 }
+.form-row{
+    display:flex;
+    gap:10px;
+    margin: 10px 0;
 
+}
+.radio-row{
+    display: flex;
+    gap:10px;
+    text-align: right;
+}
+.form-row label{
+    width: 150px;
+    text-align: right;
+    
+}
+.form-space{
+    width:150px;
+    text-align: right;
+}
+fieldset{
+    background-color: rgb(167, 151, 16);
+    color:white;
+    padding: 10px 20px;
+}
+.form-row input{
+    padding: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media only screen AND (max-width: 600px){
+    .form-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: left;
+    }
+
+}
+legend{
+    background-color:rgb(199, 235, 101);
+    border-radius: 20px;
+    color:black;
+    padding: 5px;
+}
+.form-row input:not([type="submit"]):focus{
+    background-color:blanchedalmond;
+}
+.form-row input:not([type="submit"]){
+    padding:5px 10px;
+}
+.form-row input[type="submit"]{
+    padding:10px;
+    background-color: rgb(199, 235, 101);
+    border-radius: 20px;
+}
+.larger{
+    font-size: larger;
+}

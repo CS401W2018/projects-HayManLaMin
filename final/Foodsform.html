@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="stylefinal.css" media="screen">
+    
+</head>
+<body>
+    <header><h1>Food Culture of Myanmar</h1></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="upper.html">Upper Myanmar Foods</a>
+        <a href="signature.html">Ethics' Signature</a>
+        <a href="middle.html">Middle Myanmar Foods</a>
+        <a href="lower.html">Lower Myanmar Foods</a>
+        <a href="Foodsform.html" class="current">Form</a>
+    </nav>
+    <main>
+        <p class="larger">Interested more about Burmese Cuisines? For more information, please sign up!</p >
+        <fieldset>
+            <legend>Sign up Form</legend>
+            <div id="message"></div>
+            <form action="processing.html" method="get" id="myform">
+            
+
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="stage" id="state">
+                        <option value="blank">--</option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-space"></div>
+                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments </label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-space"></div>
+                    <input type="submit">
+                </div>
+        
+            </form>
+        </fieldset>
+        
+        
+    </main>
+    <footer>&copy; 2025 Hay Man</footer>
+    <script src="foodsform.js"></script>
+</body>
+</html>
